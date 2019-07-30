@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="jAVA-WEb-applicATIon-dEVElopment-teCHNology:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/jAVA_WEb_applicATIon_dEVElopment_teCHNology_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="jAVA-WEb-applicATIon-dEVElopment-teCHNology/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="jAVA-WEb-applicATIon-dEVElopment-teCHNology" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.13" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

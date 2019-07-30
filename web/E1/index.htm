@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>E1 - Java Web Application Development Technology</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div class="mainDiv">
+    <div class="contentDiv">
+        <p class="title">实验一 内置对象及JDBC应用程序设计</p>
+        <p class="content"> - 首先要注意所用的编码都是UTF-8；</p>
+        <p class="content"> - 然后你需要运行下列SQL语句来创建数据库：</p>
+        <pre>
+create database university;
+use university;
+Create table student(
+    XueHao char(7),
+    Name char(8),
+    Sex char(2),
+    Age int,
+    Jiguan char(20),
+    Dept char(10)
+);
+</pre>
+        <p class="content"> - 进入<a href="List.jsp">学籍管理系统</a>；</p>
+        <p class="content">你可以在这个项目中尝试简单的“SQL注入”，例如在地址栏输入“Del.jsp?xuehao='or''='';-- ;”即可删掉所有记录。</p>
+    </div>
+</div>
+</body>
+<style type="text/css">
+    body {
+        margin: 0 0 0 0;
+
+        padding: 20px 20px 20px 20px;
+
+        background-color: #eeeeee
+    }
+
+    .mainDiv {
+    }
+
+    .contentDiv {
+        padding: 20px 20px 20px 20px;
+
+        border-radius: 30px;
+        border: 10px solid rgba(201, 201, 201, 0.58);
+
+        background-color: white
+    }
+
+    .title {
+        font-family: 'Microsoft YaHei UI', sans-serif;
+        font-size: 36px
+    }
+
+    .content {
+        font-family: 'Microsoft YaHei UI', sans-serif;
+    }
+
+    a{
+        /*text-decoration: none;*/
+        margin:0 4px;
+    }
+</style>
+</html>

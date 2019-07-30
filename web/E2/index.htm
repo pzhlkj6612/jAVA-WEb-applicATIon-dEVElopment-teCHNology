@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>E2 - Java Web Application Development Technology</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<div class="mainDiv">
+    <div class="contentDiv">
+        <p class="title">实验二 JSP+JavaBean应用程序设计</p>
+        <p class="content"> - 首先要注意本实验所有代码均修改自<del><a href="https://wenku.baidu.com/view/686d6d7a10a6f524ccbf85ec" target="_blank">北信科,JavaWeb JSP应用程序设计(Javabean)_百度文库</a></del>（哟，删了），所用的编码都是UTF-8。</p>
+        <p class="content"> - 然后你需要运行下列SQL语句来创建数据库：</p>
+        <pre>
+create database test;
+use test;
+create table school(
+    id char(100),
+    logname char(100),
+    password char(100),
+    realname char(100),
+    sex char(100),
+    department char(100),
+    address char(100),
+    birthday char(100),
+    occupation char(100),
+    email char(100),
+    phone char(100),
+    course1 char(100),
+    course2 char(100)
+);
+</pre>
+        <p class="content"> - 进入<a href="Home.jsp">教师管理系统</a>。</p>
+    </div>
+</div>
+</body>
+<style type="text/css">
+    body {
+        margin: 0 0 0 0;
+
+        padding: 20px 20px 20px 20px;
+
+        background-color: #eeeeee
+    }
+
+    .mainDiv {
+    }
+
+    .contentDiv {
+        padding: 20px 20px 20px 20px;
+
+        border-radius: 30px;
+        border: 10px solid rgba(201, 201, 201, 0.58);
+
+        background-color: white
+    }
+
+    .title {
+        font-family: 'Microsoft YaHei UI', sans-serif;
+        font-size: 36px
+    }
+
+    .content {
+        font-family: 'Microsoft YaHei UI', sans-serif;
+    }
+
+    a{
+        /*text-decoration: none;*/
+        margin:0 4px;
+    }
+</style>
+</html>
